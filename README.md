@@ -6,5 +6,5 @@ protoc --go_out=protogen/go --go-grpc_out=protogen/go --go-grpc_opt=paths=source
 
 ### Update Tags
 
-git tag v1.3.0
-git push origin v1.3.0
+git tag v1.4.0
+git push origin v1.4.0
