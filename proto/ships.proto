@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "github.com/hussain-khozema/shipping-proto/ships";
+
+message GetShipRequest {
+  string id = 1;
+}
+
+message GetShipResponse {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  string image = 4;
+  string price = 5;
+  string category = 6;
+}
+
+service Ships {
+  rpc GetShip(GetShipRequest) returns (GetShipResponse);
+}
