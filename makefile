@@ -1,1 +1,1 @@
-build-proto: protoc --go_out=protogen/go --go-grpc_out=protogen/go --go-grpc_opt=paths=source_relative proto/*.proto
+build-proto: protoc --go_out=protogen/go --go-grpc_out=protogen/go --go-grpc_opt=paths=source_relative proto/ships/*.proto
